@@ -1,0 +1,41 @@
+{
+	"Devices":{
+		"Therometer":{
+				"Device Name": "Therometer",
+				"Device MAC Address": "9",
+				"User": "patient",
+				"Temperature": 98.6
+			},
+		"Blood Pressure Reader":{
+				"Device Name": "Blood Pressure Reader",
+				"Device MAC Address": "A",
+				"User": "apt",
+				"Systolic Blood Pressure": 120,
+				"Diastolic Blood Pressure": 80
+			},
+		"Heart Rate Monitor":{
+				"Device Name": "Heart Rate Monitor",
+				"Device MAC Address": "a",
+				"User": "doctor",
+				"BPM": 74
+			},
+		"Oximeter":{
+		    "Device Name": "Oximeter",
+		    "Device MAC Address": "g",
+		    "User": "admin",
+		    "SpO2": 87
+			},
+		"Weight Scale":{
+		    "Device Name": "Weight Scale",
+		    "Device MAC Address": "f",
+		    "User": "doctor",
+		    "Ibs": 150
+			},
+		"Glucometer":{
+		    "Device Name": "Glucometer",
+		    "Device MAC Address": "L",
+		    "User": "patient",
+		    "mg/dL": 21
+			}
+		}
+	}
