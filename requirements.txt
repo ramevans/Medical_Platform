@@ -1,1 +1,13 @@
-json
+aniso8601
+click
+Flask
+Flask-RESTful
+Flask-SQLAlchemy
+itsdangerous
+Jinja2
+Markupsafe
+pytz
+six
+SQLAlchemy
+Werkzeug
+requests
