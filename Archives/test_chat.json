@@ -1,0 +1,18 @@
+{
+	"Chat Information":{
+		"Sender":{
+				"Sender ID": "Sender 1",
+				"Message ID": "Message 1",
+				"Date": "02/14/2022",
+				"Time": "07:30",
+				"Message Text": "Did you get this message?"
+			},
+		"Receiver":{
+				"Receiver ID": "Receiver 1",
+				"Message ID": "Message 1",
+				"Date": "02/14/2022",
+				"Time": "07:30",
+				"Message Text": "Did you get this message?"
+			}
+		}
+	}
