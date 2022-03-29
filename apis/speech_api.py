@@ -45,3 +45,4 @@ def get_result(task_id):
         result = speech2text.get_task_result(task_id)
 
     return jsonify(task_id=task_id, result=result, status=status)
+
