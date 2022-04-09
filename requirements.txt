@@ -1,1 +1,18 @@
 json
+flake8==4.0.1
+pytest==7.0.0
+peewee==3.14.8
+requests==2.27.1
+Flask==2.0.2
+python-dotenv==0.19.2
+pre-commit==2.17.0
+PyYAML~=5.3
+pymongo~=4.0.1
+dnspython~=2.0.0
+dateparser~=1.1.0
+attrs~=21.4.0
+Flask-Cors~=3.0.10
+celery[redis]~=5.2.3
+numpy==1.21 # libros requires this
+librosa
+deepspeech
