@@ -35,3 +35,7 @@ The system design documentation is in the `documentations/` folder
 There are unit tests written to verify their
 implementations in the `unit_tests/` directory with
 all the documentation necessary to explain the functionality being tested
+
+### Mobile Application
+The mobile application files are located in `mobile_application/` directory. this application is buit only for Android device at the 
+current moment 
