@@ -1,7 +1,3 @@
-"""
-    This module defines the modules and APIs for managing
-    chat messages in the MedOps infrastructure.
-"""
 
 import hashlib
 from typing import Optional
@@ -22,10 +18,8 @@ SUPPORTED_ATTACHMENT_TYPES = [
 
 
 @dataclass
-class MessageAttachmentV1:
-    """Message Attachment, Version 1
-    Parameters
-    ----------
+class MessageAttachment:
+  # ----------
     type : str
         The type of attachment. Must be one of: video, audio, image, file
     url : str
@@ -49,8 +43,8 @@ class MessageAttachmentV1:
 
 
 @dataclass
-class MessageV1:
-    """Chat message, Version 1
+class Message:
+    """Chat message
     Parameters
     ----------
     timestamp : datetime
@@ -63,7 +57,7 @@ class MessageV1:
         A list of attachments sent with the message.
     messsage_version : int
         A field to map the version to this class type when deserializing
-        data. Don't overwrite it unless you want to have a bad time.`
+        data..`
     """
 
     from_user: int
