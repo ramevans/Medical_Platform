@@ -69,8 +69,7 @@ class Endpoints:
                 received_time = datetime.now()
                 assigned_user = posted.assigned_user
                 if assigned_user is None:
-                    # TODO: Get look for assigned user via assignments
-                    # currently just defaulting to a backup
+                 
                     assigned_user = -1
 
                 data = posted.data
