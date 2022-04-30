@@ -36,4 +36,5 @@ the API model is as followed:
  
  I used "log_messages()" to do the logging of the files.
  
+ Additional documentations can be found within the files
  
