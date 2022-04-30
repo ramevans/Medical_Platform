@@ -11,7 +11,6 @@ from flask import (
     request
 )
 
-from .common import error_response
 from .. import models
 from ..models import chat_model
 
@@ -52,8 +51,6 @@ class MessageEndpoints:
 
         if not req.text and not req.attachments:
             errors.append("Either text or an attachment is required.")
-
-        # TODO: Validate from user and recipient ids exist.
 
         try:
             attachments = [chat_model.MessageAttachmentV1(**data) for data in req.attachments]
